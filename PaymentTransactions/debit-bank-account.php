@@ -17,7 +17,7 @@ function debitBankAccount($amount)
     // Set the transaction's refId
     $refId = 'ref' . time();
 
-    //Generate random bank account number
+    //bank account number
     $randomAccountNumber= rand(100000000,9999999999);
 
     // Create the payment data for a Bank Account
